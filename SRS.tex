@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\begin{document}
+	\title{SOFTWARE REQUIREMENT SPECIFICATIONS (SRS)}
+	\maketitle
+	\section{About Software}
+	This is a very basic implementation of 8085 microprocessor with a basic debugger madein C++.\\
+	\\ 
+	It includes some basic instructions like\\ 
+	Load and Store - MOV, MVI, LXI, LDA, STA, LHLD, SHLD, XCHG\\
+	Arithmetic - ADD, SUB, INR, DCR, INX, DCX, DAD, SUI\\
+	Logical - CMA, CMP\\
+	Branching - JMP, JC, JZ, JNZ\\
+	One additional command SET should be madeto set data into\\ valid memory location (Eg SET 2500 0A).
+	\section{Debugger}
+	We have implemented a basic debugger with following commands:-
+	1. break or b'line no':-It will set break point on given line number.\\
+	2. run or r:-Run the program one until it ends or breakpoint is encountered.\\
+	3. step or s:- It will run the program one instruction at a time.\\
+	4. print or p:- It prints the value of register or memory location. For ex p A print the value of  x2500 will print the value of register A. p x2500 will print the value at memory location x2500 if any.\\
+	5. quit or :- quits the debugger.\\
+	help:- will show all the commands of debugger. \\
+	\\
+	6. The software output the value of the followings, if 8085 program is correct:-\\
+	7. The program will display contents of Registers A,B,C,D,E,H,L ,flag Registers and used  memory locations only after the\\ execution of the program.\\
+	8085 have 7 registers A,B,C,D,E,H,L and 5 flag registers which are following:-\\
+	Sign Flag (Sf), Zero Flag(ZF), Auxiliary Flag(AF), Parity Flag(PF), Carry Flag(CF)\\
+	9. The Software also include command line arguments so you can run it through cmd prompt also.\\
+	
+	\section{Instructions} 
+	1.The program must be end with HLT command.\\
+	2.Input should be in Capital letters only.\\
+	3.Some inputs files are made avalaible in Debug folder in bin.\\
+	4.This is an application program so run through .exe file in same debug folder as above.\\
+	\section{Learning Outcomes}
+	We get to learn about 8085 microprocessor, Object oriented programming with C++, an idea about how gdb debugger works and idea about project development.\\
+	\section{Contacts}
+	 This application is a joint contribution of\\
+	 Ritesh Ranjan (B.tech(CS) 5th Sem Sec B )\\
+	 email - riteshranjan5245147@gmail.com\\
+	 Shatakshi Agarwal (B.tech(CS) 5th Sem Sec B )\\
+	 shatakshimittal33@gmail.com\\
+	 Forany query,Feel free to drop an email. \\
+ \end{document}

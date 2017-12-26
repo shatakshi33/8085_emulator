@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1510137196 source:c:\users\riskyritzz\desktop\8085\helpset.c
+
+1510229273 source:c:\users\riskyritzz\desktop\8085\loadandstoreinstructions.cpp
+	"header.h"
+
+1510229504 c:\users\riskyritzz\desktop\8085\header.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<conio.h>
+
+1510228745 source:c:\users\riskyritzz\desktop\8085\logicalintructions.cpp
+	"header.h"
+
+1510229464 source:c:\users\riskyritzz\desktop\8085\main.cpp
+	"header.h"
+
+1510229464 source:c:\users\riskyritzz\desktop\8085\helpset.cpp
+	"header.h"
+
